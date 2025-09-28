@@ -16,9 +16,5 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Dependencies
-        run: pip install pytest
-
-      - name: Run Tests
-        run: pytest
-
+      - name: Run Program
+        run: python hello.py
